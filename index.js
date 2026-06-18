@@ -30,6 +30,13 @@ function isPalindrome(word) {
     return word === reversedWord;  // returns true or false
 }
 
+// Function 5: calculateDiscountedPrice
+// To check if word reads the same forward and backword (case-insensitive)
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+    return originalPrice - (originalPrice * discountPercentage /100);
+}  
+
+
 
 
 // This is required for the test to function properly  
