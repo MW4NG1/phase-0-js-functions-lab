@@ -6,7 +6,7 @@ function calculateTax(amount) {
 
 // Function 2: conver it to upper case
 // Take a string and converts it to uppercase
-function convertToUppercase(text) {
+function convertToUpperCase(text) {
   return text.toUpperCase();
 }
 
