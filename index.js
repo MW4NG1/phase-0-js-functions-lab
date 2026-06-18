@@ -20,6 +20,16 @@ function findMaximum(num1, num2) {
     }
 }
 
+// Function 4: isPalindrome
+// Will check if a word reads the same forward and backward (case insesitive)
+function isPalindrome(word) {
+    word = word.toLowerCase();  //Ignore uppercase/lowercase differences
+
+    let reversedWord = word.split('').reverse().join('');  // Reverse the word
+
+    return word === reversedWord;  // returns true or false
+}
+
 
 
 // This is required for the test to function properly  
