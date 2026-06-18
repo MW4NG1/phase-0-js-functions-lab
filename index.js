@@ -4,7 +4,19 @@ function calculateTax(amount) {
     return amount * 0.1;    // 10% tax
 }
 
-// Function 2
+// Function 2: conver it to upper case
+// Take a string and converts it to uppercase
+function convertToUppercase(text) {
+    return text.toUpperCase();
+}
+
+// Function 3: findMaximum
+// This one takes two number and return the biggest one
+function findMaximum(num1, num2) {
+    if(num1 > num2) {
+        return num1;
+    }
+}
 
 
 
